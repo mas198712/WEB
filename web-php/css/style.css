@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px; 
+    padding: 0 15px;  
+}
+
+nav {
+    background-color: rgb(91, 5, 14);
+    color: white; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; 
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li {
+    margin: 0 1rem;
+}
+
+ul.menu li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Optional: Adds a transition effect */
+}
+
+ul.menu li a:hover {
+    color: lightgray; /* Optional: Adds hover effect for links */
+}
